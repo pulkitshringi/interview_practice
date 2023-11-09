@@ -1,4 +1,21 @@
-img{
-    height:100px;
-    width:100px;
+.outer{
+    height:200px;
+    width:70px;
+    border:2px solid black;
+}
+.outer div{
+    height:50px;
+    width:50px;
+    border:2px double black;
+    margin:10px;
+    border-radius:50%;
+}
+#red{
+    background-color:red;
+}
+#yellow{
+    background-color:yellow;
+}
+#green{
+    background-color:green;
 }
