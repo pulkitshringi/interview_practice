@@ -1,21 +1,16 @@
-.outer{
-    height:200px;
-    width:70px;
-    border:2px solid black;
+div{
+    background-color:pink;
+    height:100px;
+    width:100px;
+    margin-bottom:30rem;
 }
-.outer div{
-    height:50px;
-    width:50px;
-    border:2px double black;
-    margin:10px;
-    border-radius:50%;
+@media(orientation:landscape){
+    div{
+        background-color:blue;
+    }
 }
-#red{
-    background-color:red;
-}
-#yellow{
-    background-color:yellow;
-}
-#green{
-    background-color:green;
+@media(orientation:portrait){
+    div{
+        background-color:yellow;
+    }
 }
